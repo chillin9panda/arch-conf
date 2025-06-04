@@ -1,1 +1,1 @@
-chmod +x setup.sh
+chmod u+rwx setup.sh
