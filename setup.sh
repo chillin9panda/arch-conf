@@ -5,7 +5,7 @@
 sudo pacman -Syu --noconfirm
 
 # tools
-# sudo pacman -S neovim tmux alacritty git ttf-meslo-nerd github-cli openssh ufw --noconfirm
+# sudo pacman -S neovim xclip tmux alacritty git ttf-meslo-nerd github-cli openssh ufw --noconfirm
 
 #openssh
 # sudo systemctl enable sshd
@@ -29,7 +29,8 @@ sudo pacman -Syu --noconfirm
 # sudo rm -rf ~/yay
 
 #Prog-Languages
-# sudo pacman -S jdk-openjdk python clang cmake mariadb nodejs npm sqlite php composer --noconfirm
+# sudo pacman -S jdk-openjdk python clang cmake mariadb nodejs npm sqlite postgresql composer --noconfirm
+# sudo pacman -S php php-pgsql php-sqlite --noconfirm
 # sudo npm install -g typescript
 
 #Configure mariadb
@@ -59,6 +60,7 @@ sudo pacman -Syu --noconfirm
 # tailscale up
 
 #Bash-profile
+# sudo pacman -S zoxide
 # git clone --depth=1 https://github.com/dacrab/mybash.git
 # cd mybash
 # ./setup.sh
