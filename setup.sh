@@ -29,7 +29,7 @@ sudo pacman -Syu --noconfirm
 # sudo rm -rf ~/yay
 
 #Prog-Languages
-# sudo pacman -S jdk-openjdk python clang cmake mariadb nodejs npm sqlite postgresql composer --noconfirm
+# sudo pacman -S jdk-openjdk python clang cmake mariadb nodejs npm sqlite postgresql composer apache --noconfirm
 # sudo pacman -S php php-pgsql php-sqlite --noconfirm
 # sudo npm install -g typescript
 
@@ -37,6 +37,12 @@ sudo pacman -Syu --noconfirm
 # sudo mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 # sudo systemctl enable --now mariadb
 # sudo mariadb-secure-installation
+
+# Apache setup
+# chmod o+rwx http
+# sudo systemctl enable httpd
+# sudo systemctl start httpd
+#
 
 #Apps
 # sudo pacman -S libreoffice obsidian okular discord telegram-desktop drawio-desktop vlc ktorrent kdeconnect gimp gwenview mission-center obs-studio --noconfirm
