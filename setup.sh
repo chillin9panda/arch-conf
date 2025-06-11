@@ -5,7 +5,7 @@
 sudo pacman -Syu --noconfirm
 
 # tools
-# sudo pacman -S neovim xclip tmux alacritty git ttf-meslo-nerd github-cli openssh ufw --noconfirm
+# sudo pacman -S neovim xclip tmux alacritty git ttf-meslo-nerd github-cli openssh ufw fzf --noconfirm
 
 #openssh
 # sudo systemctl enable sshd
