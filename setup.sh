@@ -29,7 +29,7 @@ sudo pacman -Syu --noconfirm
 # sudo rm -rf ~/yay
 
 #Prog-Languages
-# sudo pacman -S jdk-openjdk python clang cmake mariadb nodejs npm sqlite postgresql composer apache --noconfirm
+# sudo pacman -S jdk-openjdk maven python clang cmake mariadb nodejs npm sqlite postgresql composer apache --noconfirm
 # sudo pacman -S php php-pgsql php-sqlite --noconfirm
 # sudo npm install -g typescript
 
