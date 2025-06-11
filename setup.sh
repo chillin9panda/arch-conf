@@ -12,12 +12,14 @@ git clone https://github.com/chillin9panda/tmux-conf.git
 bash tmux-conf/setup.sh
 sudo rm -rf tmux-conf
 
+# ufw
+# sudo ufw enable
+# sudo systemctl enable ufw
+# sudo systemctl start ufw
+#
 #openssh
 # sudo systemctl enable sshd
 # sudo systemctl start sshd
-
-# ufw
-# sudo ufw enable
 # sudo ufw allow 22
 
 #tools config
@@ -50,7 +52,7 @@ sudo rm -rf tmux-conf
 #
 
 #Apps
-# sudo pacman -S libreoffice obsidian okular discord telegram-desktop drawio-desktop vlc ktorrent kdeconnect gimp gwenview mission-center obs-studio --noconfirm
+# sudo pacman -S libreoffice obsidian okular discord telegram-desktop drawio-desktop vlc ktorrent kdeconnect sshfs gimp gwenview mission-center obs-studio --noconfirm
 # yay -S google-chrome brave-bin onedrive-abraunegg --noconfirm
 
 #Jellyfin
@@ -61,6 +63,9 @@ sudo rm -rf tmux-conf
 
 #Services
 # sudo pacman -S samba tailscale --noconfirm
+#
+# smb
+# sudo ufw allow 445
 
 # Setups to be separated later
 # onedrive
