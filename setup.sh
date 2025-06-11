@@ -7,6 +7,11 @@ sudo pacman -Syu --noconfirm
 # tools
 # sudo pacman -S neovim xclip tmux alacritty git ttf-meslo-nerd github-cli openssh ufw fzf --noconfirm
 
+#tmux
+git clone https://github.com/chillin9panda/tmux-conf.git
+bash tmux-conf/setup.sh
+sudo rm -rf tmux-conf
+
 #openssh
 # sudo systemctl enable sshd
 # sudo systemctl start sshd
