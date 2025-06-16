@@ -35,8 +35,8 @@ sudo rm -rf tmux-conf
 # cd ~
 # sudo rm -rf ~/yay
 
-#Prog-Languages
-# sudo pacman -S jdk-openjdk maven python clang cmake mariadb nodejs npm sqlite postgresql composer apache --noconfirm
+#Programming
+# sudo pacman -S jdk-openjdk maven python clang cmake mariadb nodejs npm sqlite postgresql composer docker apache --noconfirm
 # sudo pacman -S php php-pgsql php-sqlite --noconfirm
 # sudo npm install -g typescript
 
@@ -44,6 +44,9 @@ sudo rm -rf tmux-conf
 # sudo mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 # sudo systemctl enable --now mariadb
 # sudo mariadb-secure-installation
+
+#Docker
+#sudo systemctl enable --now docker
 
 # Apache setup
 # chmod o+rwx http
