@@ -57,6 +57,10 @@ sudo systemctl start httpd
 sudo pacman -S libreoffice obsidian dolphin okular discord telegram-desktop drawio-desktop vlc ktorrent kdeconnect sshfs gimp gwenview mission-center obs-studio --noconfirm
 yay -S google-chrome brave-bin onedrive-abraunegg --noconfirm
 
+#kde-connect
+sudo ufw allow 1714:1764/udp
+sudo ufw allow 1714:1764/tcp
+
 #Jellyfin
 sudo pacman -S jellyfin-server jellyfin-ffmpeg jellyfin-web --noconfirm
 sudo systemctl enable jellyfin
