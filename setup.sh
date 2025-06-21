@@ -54,7 +54,7 @@ sudo systemctl enable httpd
 sudo systemctl start httpd
 
 #Apps
-sudo pacman -S libreoffice obsidian okular discord telegram-desktop drawio-desktop vlc ktorrent kdeconnect sshfs gimp gwenview mission-center obs-studio --noconfirm
+sudo pacman -S libreoffice obsidian dolphin okular discord telegram-desktop drawio-desktop vlc ktorrent kdeconnect sshfs gimp gwenview mission-center obs-studio --noconfirm
 yay -S google-chrome brave-bin onedrive-abraunegg --noconfirm
 
 #Jellyfin
